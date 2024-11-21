@@ -34,6 +34,8 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    font-size:1.7em;
+    
 }
 
 nav ul li a {
@@ -42,6 +44,7 @@ nav ul li a {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.2s;
+    
 }
 
 nav ul li a:hover {
