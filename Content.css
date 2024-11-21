@@ -90,16 +90,51 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* Footer styles */
-footer {
+.back{
     text-align: center;
     padding: 1rem;
-    background: #333;
-    color: #fff;
+    background: #007acc;
+    color:#fff;
     margin-top: 2rem;
+    font-size:2rem;
+    min-width: 65%;
 }
-
+a{
+  text-decoration: none;
+    outline:none;
+    color:#fff;
+    font-size:2rem;
+    min-width:80%;
+    
+}
+a:hover{
+  font-size:1.5rem;
+  animation: width1 2s ease-in;
+}
+.back:hover{
+  background: #005f99;
+    transform: scale(1.1);
+}
 /* Animations */
+@keyframes width1 {
+  
+  25%{
+    min-width: 20%;
+    
+  }
+  50%{
+    min-width: 40%;
+    
+  }
+  75%{
+    min-width: 60%;
+    
+  }
+  100% {
+    min-width: 80%;
+  
+  }
+}
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -113,8 +148,14 @@ footer {
     animation: fade-in 2s ease-in;
     color:#333;
 }
-video{
+.example{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width:70%;
+  
+}
+.formula{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width:70%;
   
 }
 .feature-card {
@@ -126,16 +167,11 @@ video{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 750px;
-  text-align: left;
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.feature-card:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-  background:#007acc;
-  color:#fff;
-}
+
 .link{
   outline:none;
   text-decoration: none;
@@ -161,10 +197,7 @@ video{
     max-width: 90%;
     margin: 20px auto;
   }
-  video{
-    max-width: 90%;
-    margin: 20px auto;
-  }
+  
 
 
 }

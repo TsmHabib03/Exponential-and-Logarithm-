@@ -11,7 +11,7 @@ body {
 
 /* Header styles */
 header {
-    background: linear-gradient(rgba(115, 125, 300, 0.5), rgba(90, 70, 20, 0.5)), url('gen math.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgba(115, 125, 300, 0.5), rgba(90, 70, 20, 0.5)), url('gen math bg.jpeg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
