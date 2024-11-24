@@ -182,6 +182,62 @@ a:hover{
   color:#fff;
 }
 
+
+.Photos {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: fade-in 2s ease;
+}
+
+.Photos h1 {
+  color:  #007acc;
+  border-bottom: 2px solid  #007acc;
+  padding-bottom: 10px;
+  margin: 0 0 15px 0;
+  
+}
+
+.image-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.image-container img {
+  max-height: 25  00px;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.2);
+  padding:0 10px 0 10px;
+  
+}
+
+
+.image-container1 {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  
+}
+
+.image-container1 img {
+  max-height:350px;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+}
+
+.image-container1 img:hover {
+  transform: scale(1.2);
+  padding:0 10px 0 10px;
+  
+}
 @keyframes slide-down {
     0% {
         transform: translateY(-100%);
