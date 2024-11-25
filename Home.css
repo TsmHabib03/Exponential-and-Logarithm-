@@ -157,6 +157,8 @@ footer {
 
 /* Responsive design */
 @media (max-width: 768px) {
+  
+  
       .feature-card {
     max-width: 90%;
     margin: 20px auto;
