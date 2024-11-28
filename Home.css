@@ -98,7 +98,7 @@ button:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #333;
+    background:#007acc;
     color: #fff;
     margin-top: 2rem;
 }
@@ -145,7 +145,19 @@ footer {
 .link:hover{
   color:#fff;
 }
-
+.tools{
+  display: inline-block;
+  background: #fff;
+  color:#007acc;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  height: 60%;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 @keyframes slide-down {
     0% {
         transform: translateY(-100%);
