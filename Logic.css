@@ -1,0 +1,122 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Section styles */
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #007acc;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+th {
+    background: #007acc;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Nested table styles */
+.logic-table table {
+    width: 100%;
+    margin: 0;
+}
+
+.logic-table th, .logic-table td {
+    font-size: 0.9rem;
+    padding: 0.3rem;
+}
+
+/* Button styles */
+button {
+    display: inline-block;
+    background: #007acc;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #005f99;
+    transform: scale(1.1);
+}
+
+/* Back button */
+.back {
+    display: block;
+    margin: 2rem auto;
+    width: 200px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    section {
+        padding: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    th, td {
+        font-size: 0.9rem;
+    }
+}

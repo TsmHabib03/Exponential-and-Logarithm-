@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic and Propositions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Logic.css">
+</head>
+<body>
+    <header>
+        <h1>Logic and Propositions</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>What is Logic?</h2>
+            <p>
+                Logic uses reasoning to analyze propositions. Below are examples of logical equations and their truth tables.
+            </p>
+        </section>
+        
+        <section id="examples">
+            <h2>Examples of Logical Equations</h2>
+            <table class="logic-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Equation</th>
+                        <th>Truth Table</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>¬p</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>p</th>
+                                    <th>¬p</th>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>False</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>True</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>p → q</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>p</th>
+                                    <th>q</th>
+                                    <th>p → q</th>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>False</td>
+                                    <td>True</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>p ∧ q</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>p</th>
+                                    <th>q</th>
+                                    <th>p ∧ q</th>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>True</td>
+                                    <td>False</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>p ∨ q</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>p</th>
+                                    <th>q</th>
+                                    <th>p ∨ q</th>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>False</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>(¬p ∨ q) ∧ (p → q)</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>p</th>
+                                    <th>q</th>
+                                    <th>¬p</th>
+                                    <th>¬p ∨ q</th>
+                                    <th>p → q</th>
+                                    <th>(¬p ∨ q) ∧ (p → q)</th>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>False</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>True</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                    <td>False</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                                <tr>
+                                    <td>False</td>
+                                    <td>False</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                    <td>True</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <a href="http://localhost:7700/Home.html">
+            <button class="back">Back</button>
+        </a>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
